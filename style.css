@@ -1,0 +1,151 @@
+body {
+background-color: #cae4db;
+color :  #536162;
+ font-family: 'Lora', serif;
+ font-size: 16px;
+}
+
+h1 {
+	color: #0a043c;
+	font-family: 'Roboto', sans-serif;
+	font-weight : 90;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+h2 {
+	color: rgb(130, 130, 130);
+	font-family: Courier;
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: #0a043c;
+}
+
+a:hover {
+	color: #03506f;
+}
+
+ a { 
+ 	#tom-circle {
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px black;
+}
+
+}
+
+.tout{
+	color: rgb(130, 130, 130);
+	font-family: Courier;
+	font-size: 24px;
+	background: #caf7e3;
+    padding: 60px;
+    margin: 40px auto;
+    width: 700px;
+    text-decoration:none;
+    text-align: center;
+    list-style: none;
+}
+
+
+    .tout > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+
+}
+
+
+
+.un {
+	color: rgb(130, 130, 130);
+	font-family: Courier;
+	font-size: 24px;
+	background: #caf7e3;
+    padding: 60px;
+    margin: 40px auto;
+    width: 700px;
+	text-align: center;
+
+}
+
+#tom-circle {
+	border-radius: 20%;
+}
+
+.bouton {
+	background-color: #cae4db;
+	color: blue;
+	padding: 15px 20px
+	border-radius: 4px;
+}
+
+.bouton:hover {
+background-color: blue;
+color:#cae4db;
+}
+
+
+
+
+@media (max-width: 960px) {
+  .un {
+    width: 500px;
+  }
+  .tout{
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  .un {
+    width: 300px;
+  }
+  .tout{
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  .un {
+    width: 100px;
+   }
+  .tout{
+    width: 100px;
+   }
+
+
+
+ul {
+    list-style-type: none;
+}
+.logo {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+ul li a {
+    float:left;
+    width: 40px;
+    background-color:#65b5f0;
+    color:black;
+    text-decoration:none;
+    padding:5px;
+    margin: 3px auto;
+    margin-left: 0px;
+    margin-right: 40px;
+    border-radius: 4px;
+}
+ul li a i {
+    font-size: 20px;
+    
+}
+
+#intro p {
+margin: 40px;
+}
+
+
+
+
+
+
